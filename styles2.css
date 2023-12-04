@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color:white;
+}
+
+html,body{
+    height:100%;
+    width:100%
+}
+
+#page1{
+    width:100%;
+    height:100%;
+    background-color: black;
+
+}
+#page2{
+    width:100%;
+    height:100%;
+    background-color: rgb(94, 85, 85);
+}
+#page3{
+    width:100%;
+    height:100%;
+    background-color: rgb(223, 214, 214);
+}
+
+#box{
+    width:150px;
+    height:150px;
+    background-color: burlywood;
+    left:50%;
+    top:50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+}
+
